@@ -1,0 +1,14 @@
+{
+  "name": "web3rsvp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alexey Ryabov",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.2"
+  }
+}
