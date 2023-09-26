@@ -22,7 +22,6 @@ const main = async () => {
   );
 
   let wait = await txn.wait();
-
   console.log("NEW EVENT CREATED:", wait.events[0].event, wait.events[0].args);
 
   let eventId = wait.events[0].args.eventId;
