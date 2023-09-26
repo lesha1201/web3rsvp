@@ -5,7 +5,8 @@
   "author": "Alexey Ryabov",
   "license": "MIT",
   "scripts": {
-    "script": "hardhat run scripts/run.ts"
+    "test": "hardhat run scripts/run.ts",
+    "deploy": "hardhat run scripts/deploy.ts --network mumbai"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
